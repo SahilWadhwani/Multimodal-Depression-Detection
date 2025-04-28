@@ -1,0 +1,7 @@
+flask
+torch
+transformers
+torchvision
+Pillow
+scikit-learn
+numpy
