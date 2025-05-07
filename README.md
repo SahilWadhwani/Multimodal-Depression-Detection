@@ -69,9 +69,6 @@ python app.py
 ### Frontend Setup
 
 ```bash
-# Go to the frontend directory
-cd ../frontend
-
 # Install dependencies
 npm install
 
