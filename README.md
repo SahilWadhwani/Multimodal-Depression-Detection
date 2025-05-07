@@ -4,7 +4,7 @@
 
 This project aims to build a **Multimodal Depression Detection System** that leverages both textual and visual data to predict depressive tendencies. The system combines Natural Language Processing (NLP) techniques with image analysis to evaluate a user's mental state using text and face image inputs. It uses **BERT** for text analysis and **ResNet** for image feature extraction, achieving accurate predictions by integrating these modalities.
 
-## 🌟 Features
+##  Features
 
 * Predicts depression from both text and image inputs
 * Real-time data input and analysis through a user-friendly interface
@@ -12,7 +12,7 @@ This project aims to build a **Multimodal Depression Detection System** that lev
 * Asynchronous API communication and smooth UX
 * Deployed using local Flask server for backend processing
 
-## 💻 Tech Stack
+##  Tech Stack
 
 * **Backend:** Python, Flask, PyTorch, BERT, ResNet
 * **Frontend:** React, Tailwind CSS, TypeScript
@@ -20,21 +20,21 @@ This project aims to build a **Multimodal Depression Detection System** that lev
 * **Deployment:** Local server with Flask API integration
 * **Training Environment:** Kaggle Notebook (for GPU support)
 
-## 📚 Datasets Used
+##  Datasets Used
 
 * **Text Data:** Depression-related Reddit posts (cleaned)
 * **Image Data:** FER2013 (Facial Expression Recognition)
 * Text data used to train BERT for sentiment analysis
 * Image data used to train ResNet for emotion recognition
 
-## 🏛️ Project Architecture
+##  Project Architecture
 
 1. **Data Preprocessing:** Text cleaning and image transformation
 2. **Model Training:** Fine-tuned BERT for text and ResNet for images
 3. **API Integration:** Flask serves the trained model for prediction
 4. **Frontend Display:** React visualizes prediction results in real-time
 
-## 🖼️ Screenshots
+##  Screenshots
 
 ![image](https://github.com/user-attachments/assets/d9d83da2-69ef-4aa6-859b-bfe5f8fd72b0)
 
@@ -42,7 +42,7 @@ This project aims to build a **Multimodal Depression Detection System** that lev
 
 
 
-## 🛠️ Setup and Installation
+##  Setup and Installation
 
 ### Prerequisites
 
@@ -81,14 +81,14 @@ npm start
 
 * Open your browser and go to: `http://localhost:5173`
 
-## 📝 Usage
+##  Usage
 
 * Enter a textual input describing how you feel
 * Upload an image showing your current facial expression
 * Click on **Analyze Data**
 * View the prediction result along with the confidence score
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 ├── backend
@@ -107,7 +107,7 @@ npm start
 └── requirements.txt
 ```
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Deploy on cloud (AWS/Heroku)
 * Enhance accuracy with fine-tuning on larger datasets
